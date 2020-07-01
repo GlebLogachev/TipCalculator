@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tip Calculator</string>
+    <string name="perPersonStaticText">Per Buddy</string>
+    <string name="billStaticText">Total Damage ($)</string>
+    <string name="tipStaticText">Generous Tip</string>
+    <string name="numberOfPeopleStaticText">Buddies</string>
+    <string name="tip_from_one_person">Per Buddy</string>
+    <string name="total_restaurant_bill">Total restaurant bill($)</string>
+    <string name="buddies">Buddies</string>
+    <string name="tip_percentage">Percent Of Tip</string>
+    <string name="biil_for_one_person_format">%s$</string>
+    <string name="percent_format">%s%%</string>
+</resources>

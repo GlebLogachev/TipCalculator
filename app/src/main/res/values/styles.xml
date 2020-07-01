@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="text">
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <style name="total_bill_et">
+        <item name="android:hint">"Write Here"</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:maxLength">8</item>
+        <item name="android:textColorHint">@color/text</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <style name="bill_for_one_person" parent="text">
+        <item name="android:textSize">@dimen/bill_for_one_person</item>
+    </style>
+
+    <style name="total_bill_til" >
+
+        <item name="colorControlNormal">@color/color_accent_secondary</item>
+        <item name="colorControlActivated">@color/color_accent_secondary</item>
+        
+    </style>
+
+
+
+</resources>
